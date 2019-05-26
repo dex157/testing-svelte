@@ -5,7 +5,8 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --config ./build-scripts/webpack.config.js"
+    "start": "webpack-dev-server --config ./build-scripts/webpack.config.js",
+    "build-dev": "webpack --config ./build-scripts/webpack.config.js"
   },
   "devDependencies": {
     "find-package-json": "^1.2.0",
