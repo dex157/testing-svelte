@@ -17,10 +17,13 @@ const devServerConfig = {
   compress: true,
   clientLogLevel: 'none',
   watchContentBase: true,
-  // hot: true,
+  hot: true,
   publicPath: '/',
   quiet: true,
-  overlay: true
+  overlay: {
+    errors: true,
+    warnings: true
+  }
 }
 
 const webpackConfig = {
